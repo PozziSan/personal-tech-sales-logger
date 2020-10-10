@@ -133,3 +133,4 @@ dmypy.json
 
 #database
 .db/*
+/db/
