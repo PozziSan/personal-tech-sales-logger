@@ -134,3 +134,4 @@ dmypy.json
 #database
 .db/*
 /db/
+/tech_sales_logger/staticfiles/
