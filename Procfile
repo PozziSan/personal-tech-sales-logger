@@ -1,1 +1,1 @@
-web: gunicorn tech_sales_logger/tech_sales_logger.wsgi
+web: gunicorn tech_sales_logger.wsgi
