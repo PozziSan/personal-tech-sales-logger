@@ -51,11 +51,12 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'tech_sales_logger.urls'
+TEMPLATE_DIR = os.path.join(BASE_DIR, "tech_sales_logger/templates")
 
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [TEMPLATE_DIR],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
