@@ -123,4 +123,8 @@ USE_TZ = True
 
 STATIC_URL = os.path.join(BASE_DIR, 'staticfile/')
 
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, 'tech_sales_logger/static'),
+)
+
 django_heroku.settings(locals())
